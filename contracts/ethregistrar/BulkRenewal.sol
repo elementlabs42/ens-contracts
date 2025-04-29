@@ -8,7 +8,7 @@ import "../resolvers/Resolver.sol";
 import "./IBulkRenewal.sol";
 import "./IPriceOracle.sol";
 
-import "@openzeppelin/contracts/utils/introspection/IERC165.sol";
+import "@openzeppelin-ens/contracts/utils/introspection/IERC165.sol";
 
 contract BulkRenewal is IBulkRenewal {
     bytes32 private constant ETH_NAMEHASH =

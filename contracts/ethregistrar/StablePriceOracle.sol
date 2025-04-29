@@ -3,8 +3,8 @@ pragma solidity ~0.8.17;
 
 import "./IPriceOracle.sol";
 import "../utils/StringUtils.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/utils/introspection/IERC165.sol";
+import "@openzeppelin-ens/contracts/access/Ownable.sol";
+import "@openzeppelin-ens/contracts/utils/introspection/IERC165.sol";
 
 interface AggregatorInterface {
     function latestAnswer() external view returns (int256);

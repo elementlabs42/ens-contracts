@@ -2,7 +2,7 @@
 pragma solidity ^0.8.4;
 
 import "../../resolvers/profiles/IExtendedDNSResolver.sol";
-import "@openzeppelin/contracts/utils/introspection/IERC165.sol";
+import "@openzeppelin-ens/contracts/utils/introspection/IERC165.sol";
 
 contract DummyExtendedDNSSECResolver is IExtendedDNSResolver, IERC165 {
     function supportsInterface(

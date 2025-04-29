@@ -2,7 +2,7 @@
 pragma solidity ^0.8.4;
 
 import "../../resolvers/profiles/ITextResolver.sol";
-import "@openzeppelin/contracts/utils/introspection/IERC165.sol";
+import "@openzeppelin-ens/contracts/utils/introspection/IERC165.sol";
 
 contract DummyLegacyTextResolver is ITextResolver, IERC165 {
     function supportsInterface(

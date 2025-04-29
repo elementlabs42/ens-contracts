@@ -5,7 +5,7 @@ import "./ETHRegistrarController.sol";
 import "./IBulkRenewal.sol";
 import "./IPriceOracle.sol";
 
-import "@openzeppelin/contracts/utils/introspection/IERC165.sol";
+import "@openzeppelin-ens/contracts/utils/introspection/IERC165.sol";
 
 contract StaticBulkRenewal is IBulkRenewal {
     ETHRegistrarController controller;

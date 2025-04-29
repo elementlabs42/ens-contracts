@@ -5,8 +5,8 @@
 
 pragma solidity ^0.8.0;
 
-import "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol";
-import "@openzeppelin/contracts/utils/introspection/ERC165.sol";
+import "@openzeppelin-ens/contracts/token/ERC1155/IERC1155Receiver.sol";
+import "@openzeppelin-ens/contracts/utils/introspection/ERC165.sol";
 
 contract ERC1155ReceiverMock is IERC1155Receiver, ERC165 {
     bytes4 private _recRetval;

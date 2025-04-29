@@ -3,7 +3,7 @@ pragma solidity ^0.8.4;
 import "../../registry/ENS.sol";
 import "../../ethregistrar/IBaseRegistrar.sol";
 import {BytesUtils} from "../../utils/BytesUtils.sol";
-import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
+import {Ownable} from "@openzeppelin-ens/contracts/access/Ownable.sol";
 
 contract TestUnwrap is Ownable {
     using BytesUtils for bytes;

@@ -10,9 +10,9 @@ import {ENS} from "../registry/ENS.sol";
 import {IReverseRegistrar} from "../reverseRegistrar/IReverseRegistrar.sol";
 import {ReverseClaimer} from "../reverseRegistrar/ReverseClaimer.sol";
 import {IBaseRegistrar} from "../ethregistrar/IBaseRegistrar.sol";
-import {IERC721Receiver} from "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol";
-import "@openzeppelin/contracts/token/ERC1155/IERC1155.sol";
-import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
+import {IERC721Receiver} from "@openzeppelin-ens/contracts/token/ERC721/IERC721Receiver.sol";
+import "@openzeppelin-ens/contracts/token/ERC1155/IERC1155.sol";
+import {Ownable} from "@openzeppelin-ens/contracts/access/Ownable.sol";
 import {BytesUtils} from "../utils/BytesUtils.sol";
 import {ERC20Recoverable} from "../utils/ERC20Recoverable.sol";
 
